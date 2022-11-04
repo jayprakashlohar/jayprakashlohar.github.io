@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8d5b13d3.chunk.css",
-    "main.js": "/static/js/main.49ed8931.chunk.js",
-    "main.js.map": "/static/js/main.49ed8931.chunk.js.map",
+    "main.js": "/static/js/main.faad438d.chunk.js",
+    "main.js.map": "/static/js/main.faad438d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.40c522f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.40c522f0.js.map",
     "static/js/2.d5e58f13.chunk.js": "/static/js/2.d5e58f13.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.8d5b13d3.chunk.css.map": "/static/css/main.8d5b13d3.chunk.css.map",
     "static/js/2.d5e58f13.chunk.js.LICENSE.txt": "/static/js/2.d5e58f13.chunk.js.LICENSE.txt",
-    "static/media/Bhanu1.79dbacaf.png": "/static/media/Bhanu1.79dbacaf.png",
+    "static/media/Bhanu1.3a310275.png": "/static/media/Bhanu1.3a310275.png",
     "static/media/PrimevideoPic1.af65a5eb.png": "/static/media/PrimevideoPic1.af65a5eb.png",
     "static/media/Round.788ea165.svg": "/static/media/Round.788ea165.svg",
     "static/media/hashnode.3785dede.png": "/static/media/hashnode.3785dede.png",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.40c522f0.js",
     "static/js/2.d5e58f13.chunk.js",
     "static/css/main.8d5b13d3.chunk.css",
-    "static/js/main.49ed8931.chunk.js"
+    "static/js/main.faad438d.chunk.js"
   ]
 }
