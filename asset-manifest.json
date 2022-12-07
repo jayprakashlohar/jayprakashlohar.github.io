@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeb510c2.chunk.css",
-    "main.js": "/static/js/main.0205db35.chunk.js",
-    "main.js.map": "/static/js/main.0205db35.chunk.js.map",
+    "main.css": "/static/css/main.0c1025f4.chunk.css",
+    "main.js": "/static/js/main.8ea5273f.chunk.js",
+    "main.js.map": "/static/js/main.8ea5273f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.40c522f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.40c522f0.js.map",
     "static/js/2.9c4f6e72.chunk.js": "/static/js/2.9c4f6e72.chunk.js",
     "static/js/2.9c4f6e72.chunk.js.map": "/static/js/2.9c4f6e72.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eeb510c2.chunk.css.map": "/static/css/main.eeb510c2.chunk.css.map",
+    "static/css/main.0c1025f4.chunk.css.map": "/static/css/main.0c1025f4.chunk.css.map",
     "static/js/2.9c4f6e72.chunk.js.LICENSE.txt": "/static/js/2.9c4f6e72.chunk.js.LICENSE.txt",
     "static/media/Bhanu1.3a310275.png": "/static/media/Bhanu1.3a310275.png",
     "static/media/PrimevideoPic1.af65a5eb.png": "/static/media/PrimevideoPic1.af65a5eb.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.40c522f0.js",
     "static/js/2.9c4f6e72.chunk.js",
-    "static/css/main.eeb510c2.chunk.css",
-    "static/js/main.0205db35.chunk.js"
+    "static/css/main.0c1025f4.chunk.css",
+    "static/js/main.8ea5273f.chunk.js"
   ]
 }
