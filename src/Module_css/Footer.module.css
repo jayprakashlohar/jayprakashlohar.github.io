@@ -1,0 +1,93 @@
+.footer_mainDiv {
+    text-align: center;
+    background-color: #464646;
+    height: 15em;
+    width: 100%;
+}
+
+.footer_scrollup {
+    position: absolute;
+    left: 50%;
+    transform: translate(-59%, -50%);
+}
+.footer_scrollup * {
+    font-size: 4.5em;
+}
+.footer_scrollup *:hover {
+    font-size: 4.5em;
+    color: #00a8e1;
+}
+
+.footer_outerDiv_icons {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    margin: 1em;
+    margin-top: 1.7em;
+}
+.footer_outerDiv_icons :nth-child(1) {
+    margin-left: 1.4em;
+}
+.footer_outerDiv_icons :nth-child(3) {
+    margin-right: 3.2em;
+}
+
+.footer_address_numberDiv {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.footer_address_numberDiv div {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-right: 1.25em;
+}
+.footer_address_numberDiv div :nth-child(1) {
+    margin-left: 0.5em;
+    margin-right: 0.5em !important;
+    font-size: 1.2em;
+}
+
+.footer_designBy {
+    color: white;
+    font-size: 1em;
+    margin-top: 2.3em;
+}
+
+@media (max-width: 760px) {
+    .footer_outerDiv_icons {
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+
+    .footer_address_numberDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_address_numberDiv div {
+        margin: 0.3em;
+        font-weight: 10;
+    }
+
+    .footer_designBy {
+        color: white;
+        font-size: 1em;
+        margin-top: 1.7em;
+    }
+    .footer_scrollup {
+        position: absolute;
+        left: 50%;
+        transform: translate(-57%, -50%);
+    }
+
+    .footer_scrollup * {
+        font-size: 4.5em;
+    }
+    .footer_scrollup *:hover {
+        font-size: 4.5em;
+        color: #010101;
+    }
+}

@@ -1,0 +1,334 @@
+.mainAboutDiv {
+  text-align: center;
+  background-color: #464646;
+  margin-top: 5em;
+  overflow-y: hidden;
+  padding-bottom: 3em;
+}
+
+.about_InnerDivImg img {
+  margin-top: 2em;
+  height: 17em;
+  /* width: 10%; */
+  border-radius: 50%;
+}
+.about_InnerDivImg img:hover {
+  opacity: 0.9;
+  padding: 0.2em;
+}
+.about_nameH1Div {
+  color: white;
+  margin: 1.5em;
+}
+.about_nameH1Div span {
+  color: #00a8e1;
+}
+.about_devH3Div {
+  color: white;
+  margin: 1em;
+  margin-bottom: 1.2em !important;
+}
+.about_descPDiv {
+  color: white;
+  max-width: 56em;
+  margin: 1em auto;
+}
+.about_outerDiv_icons {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.9em;
+  margin: 1em;
+  margin-bottom: 0.7em !important;
+}
+.about_outerDiv_icons :nth-child(1) {
+  margin-left: 1.4em;
+}
+.about_outerDiv_icons :nth-child(3) {
+  margin-right: 3.2em;
+}
+
+.about_address_numberDiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.about_address_numberDiv div {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-right: 1.25em;
+}
+.about_address_numberDiv div :nth-child(1) {
+  margin-left: 0.6em;
+  margin-right: 0.6em !important;
+  font-size: 1.2em;
+}
+.about_resume_button {
+  width: 7.5em;
+  height: 2.5em;
+  background: #77d1ff;
+  border-radius: 0.25em;
+  margin-bottom: 1.25em;
+  margin-top: 1.7em;
+
+  font-family: Amazon Ember;
+  font-style: normal;
+  font-size: 1em;
+  border: none;
+  color: #ffffff;
+}
+/* .about_resume_button > a {
+    color: #ffffff;
+} */
+
+.about_resume_button :hover {
+  background: #00a8e1;
+}
+
+/* ----------------- */
+/* @import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap"); */
+
+button {
+  margin: 1em;
+  font-family: "Sigmar One", cursive;
+  letter-spacing: 1px;
+  height: 2.5em;
+  width: 9em;
+  /* background: rgb(0, 89, 255); */
+  color: #00bfff;
+  font-size: 1.2em;
+  border: 1px solid #00bfff;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.viewSource {
+  box-shadow: inset 0 0 rgb(0, 89, 255);
+  transition: all 0.3s ease-out;
+}
+
+.viewSource:hover {
+  box-shadow: inset 12em 0 #fffb0e;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.resumeButton {
+  position: relative;
+  z-index: 1;
+  background: #00a8e1;
+}
+
+.resumeButton::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  background: #464646;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.resumeButton::after {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  right: 0;
+  top: 0;
+  background: #464646;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.resumeButton:hover:before {
+  width: 0;
+}
+
+.resumeButton:hover:after {
+  width: 0;
+}
+
+.resumeButton:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.viewDemoButton {
+  position: relative;
+  z-index: 1;
+  background: #00a8e1;
+  transition: all 0.3s ease-out;
+  color: white;
+  margin: 0.9em;
+}
+.viewDemoButton:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.viewDemoButton::after {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background: white;
+  right: 0;
+  top: 0;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.viewDemoButton:hover:after {
+  width: 100%;
+}
+
+.about_emoji {
+  transform-origin: center;
+  animation: wave 1.5s infinite alternate linear;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-25deg);
+  }
+}
+
+.about_nameH1Div h1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hello {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.hand_wave {
+  font-size: 2em;
+  display: inline-block;
+  animation: wave 1.5s infinite alternate linear;
+}
+.about_hii {
+  color: white !important;
+}
+
+/* ----------------- */
+
+@media (max-width: 760px) {
+  .mainAboutDiv {
+    text-align: center;
+    padding-bottom: 2em;
+    /* height: 100vh; */
+  }
+
+  .about_InnerDivImg img {
+    margin-top: 2em;
+    height: 14em;
+  }
+
+  .about_InnerDivImg img:hover {
+    margin-top: 2em;
+    height: 14em;
+    opacity: 1;
+    padding: 0em;
+  }
+
+  .about_devH3Div {
+    color: rgba(255, 255, 255, 0.938);
+    margin: 1em;
+    margin-bottom: 1.2em !important;
+  }
+  .about_descPDiv {
+    color: rgba(255, 255, 255, 0.89);
+    max-width: 56em;
+    margin: 1em;
+    font-weight: 10;
+    letter-spacing: 1px;
+  }
+
+  .about_outerDiv_icons {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5em;
+  }
+  #hiIam {
+    display: none;
+  }
+  .about_emoji {
+    display: none;
+  }
+
+  .about_hii {
+    display: none;
+  }
+
+  button {
+    margin: 2em;
+    /* height: 2.5em;
+    width: 9em; */
+  }
+  /* ------------- */
+  .viewDemoButton {
+    background: #00a8e1;
+    color: white;
+  }
+  .viewDemoButton:hover {
+    color: white;
+  }
+
+  .viewDemoButton::after {
+    background: #00a8e1;
+  }
+
+  .resumeButton {
+    background: #00a8e1;
+    color: rgb(0, 0, 0);
+  }
+
+  .resumeButton::before {
+    background: #00a8e1;
+  }
+
+  .resumeButton::after {
+    background: #00a8e1;
+  }
+
+  .resumeButton:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+  }
+
+  /* --------------- */
+
+  .resumeButton {
+    margin-bottom: 4em;
+  }
+  .about_address_numberDiv div :nth-child(1) {
+    margin-right: 0.2em !important;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1300px) {
+  button {
+    margin: 1em;
+    height: 2.5em;
+    width: 7em;
+  }
+}

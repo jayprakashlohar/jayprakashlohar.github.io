@@ -1,0 +1,48 @@
+.skill_MainOuterDiv {
+    margin: auto;
+    text-align: center;
+}
+
+.skill_gridMain {
+    width: 80% !important;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    border: 1px solid #f0f0f0;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    transition: all 0.3s ease;
+}
+
+.skill_gridMain:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.skill_gridMain div {
+    margin: 2em;
+}
+
+.skill_icon {
+    font-size: 10em;
+    /* margin: 100px; */
+}
+
+styles.iccoonn {
+}
+
+@media (max-width: 760px) {
+    .skill_gridMain {
+        width: 90% !important;
+        margin: 1em auto;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    .skill_gridMain div {
+        margin: 2em;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1300px) {
+    .skill_gridMain div {
+        margin: 0em;
+    }
+}
