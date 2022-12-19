@@ -136,13 +136,13 @@ export const Projects = () => {
               <div>
                 <a
                   target="_blank"
-                  href="https://clinquant-youtiao-bd8347.netlify.app/"
+                  href="https://spontaneous-blancmange-6ec2b3.netlify.app/"
                 >
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
               </div>
               <div>
-                <a
+                <a 
                   target="_blank"
                   href="https://github.com/imrangadwal10/zonked-instrument-5361"
                 >

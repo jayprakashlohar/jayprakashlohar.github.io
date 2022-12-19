@@ -82,10 +82,7 @@ export const About = () => {
           </div>
         </div>
         <div className={styles.resumeButtonDiv}>
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1X7UuBPTPS6vFaVoeeuZB2jd0NwME2PKW/view?usp=sharing"
-          >
+          <a href="Jayprakash_Lohar_Resume.pdf" download>
             <button className={styles.resumeButton}>Resume</button>
           </a>
         </div>
