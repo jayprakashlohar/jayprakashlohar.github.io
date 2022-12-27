@@ -20,30 +20,34 @@ export const Projects = () => {
       <div className={styles.mainProjects_mainDiv}>
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={bestBuy} alt="" />
+            <img src={purplle} alt="" />
           </div>
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>BestBuy</h2>
+              <h2>Google Digital Garage</h2>
               <p>
-                Shop Best Buy for electronics, computers, appliances, cell
-                phones, video games & more new tech. In-store pickup & free
-                2-day shipping on thousands of items. This was a collaborative
-                project which was done by me and 4 other members in 5-days using
-                React, HTML,CSS,Chakra-ui,Express and Mongodb.
+                Accelerate your career or business with an online digital skills
+                course in everything from marketing to coding and beyond.
+                Discover courses in topics designed to help expand your career,
+                business and horizons and to upgrade your skills for a new
+                digital world This was a collaborative project which was done by
+                me and 4 other members in 5-days using HTML, CSS, JavaScript.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
-                <a target="_blank" href="https://build-newsite.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://spontaneous-blancmange-6ec2b3.netlify.app/"
+                >
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
               </div>
               <div>
                 <a
                   target="_blank"
-                  href="https://github.com/jayprakashlohar/united-cobweb-7806/tree/main/frounted"
+                  href="https://github.com/imrangadwal10/zonked-instrument-5361"
                 >
                   <button className={styles1.viewDemoButton}>
                     View Source
@@ -55,7 +59,7 @@ export const Projects = () => {
                   styles.mainProjects_mainDiv_project1_summary_flex_icon
                 }
               >
-                <Icon_small className="devicon-react-original-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
                 <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
                 <Icon_small className="devicon-javascript-plain colored"></Icon_small>
                 <Icon_small className="devicon-express-original colored"></Icon_small>
@@ -63,7 +67,6 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
             <img src={PrimeVideo} alt="" />
@@ -78,7 +81,7 @@ export const Projects = () => {
                 to your doorstep.Licians will build the most loved meat brand by
                 delighting the world with an unmatched range of meat and meat
                 products. This was a individual project which was done by me in
-                5-days using React, HTML, CSS,MongoDB, Express, and Chakra-ui.
+                5-days using ReactJS, HTML, CSS, JavaScript and Chakra-UI.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
@@ -113,38 +116,33 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={purplle} alt="" />
+            <img src={hashnode} alt="" />
           </div>
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Google Digital Garage</h2>
+              <h2>Bestbuy</h2>
               <p>
-                Accelerate your career or business with an online digital skills
-                course in everything from marketing to coding and beyond.
-                Discover courses in topics designed to help expand your career,
-                business and horizons and to upgrade your skills for a new
-                digital world This was a collaborative project which was done by
-                me and 4 other members in 5-days using Javascript,
-                HTML,CSS,Express and Mongodb.
+                Shop Best Buy for electronics, computers, appliances, cell
+                phones, video games & more new tech. In-store pickup & free
+                2-day shipping on thousands of items. This was a collaborative
+                project which was done by me and 4 other members in 5-days using
+                ReactJS, Redux, HTML, CSS, Chakra-UI, NodeJS, Express and
+                Mongodb.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
-                <a
-                  target="_blank"
-                  href="https://spontaneous-blancmange-6ec2b3.netlify.app/"
-                >
+                <a target="_blank" href="https://review-bestbuy.netlify.app/">
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
               </div>
               <div>
-                <a 
+                <a
                   target="_blank"
-                  href="https://github.com/imrangadwal10/zonked-instrument-5361"
+                  href="https://github.com/itsAkash12/united-cobweb-7806"
                 >
                   <button className={styles1.viewDemoButton}>
                     View Source
@@ -156,7 +154,7 @@ export const Projects = () => {
                   styles.mainProjects_mainDiv_project1_summary_flex_icon
                 }
               >
-                <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-react-original-wordmark colored"></Icon_small>
                 <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
                 <Icon_small className="devicon-javascript-plain colored"></Icon_small>
                 <Icon_small className="devicon-express-original colored"></Icon_small>
@@ -164,28 +162,28 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={hashnode} alt="" />
+            <img src={bestBuy} alt="" />
           </div>
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Bricbuzz</h2>
+              <h2>NNNOW</h2>
               <p>
-                Cricbuzz is an Indian cricket news website owned by Times
-                Internet. It features, news, articles and live coverage of
-                cricket matches including videos, text commentary, player stats
-                and team rankings. This was a individual project which was done
-                by me in 5-days using Javascript, HTML, CSS.
+                NNNOW is an E-commerce website where users Shopping for Men,
+                Women, and Kids products. Buy a wide range of branded clothes,
+                apparel, accessories, shoes online at NNNOW.com. This was a
+                collaborative project which was done by me and 4 other members
+                in 5-days using ReactJS, HTML, CSS, SCSS, Chakra-UI, Redux,
+                NodeJS, Express and Mongodb.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
                 <a
                   target="_blank"
-                  href="https://whimsical-rugelach-283b8e.netlify.app/"
+                  href="https://trendy-vibes-imdebabrata-imdebabrata.vercel.app/"
                 >
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
@@ -193,7 +191,7 @@ export const Projects = () => {
               <div>
                 <a
                   target="_blank"
-                  href="https://github.com/jayprakashlohar/satisfying-scale-7625"
+                  href="https://github.com/vepada-sateesh/diligent-pies-1359"
                 >
                   <button className={styles1.viewDemoButton}>
                     View Source
