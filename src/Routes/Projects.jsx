@@ -39,7 +39,7 @@ export const Projects = () => {
               <div>
                 <a
                   target="_blank"
-                  href="https://spontaneous-blancmange-6ec2b3.netlify.app/"
+                  href="https://fastidious-nougat-4b59ee.netlify.app/"
                 >
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
