@@ -5,6 +5,7 @@ import purplle from "../Images/purpllePic1.png";
 import PrimeVideo from "../Images/PrimevideoPic1.png";
 import hashnode from "../Images/hashnode.png";
 import bestBuy from "../Images/bestbuy3.png";
+import apple from "../Images/Apple.png";
 import {
   Icon_small,
   StyledIcon_react,
@@ -192,6 +193,53 @@ export const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/vepada-sateesh/diligent-pies-1359"
+                >
+                  <button className={styles1.viewDemoButton}>
+                    View Source
+                  </button>
+                </a>
+              </div>
+              <div
+                className={
+                  styles.mainProjects_mainDiv_project1_summary_flex_icon
+                }
+              >
+                <Icon_small className="devicon-react-original-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-javascript-plain colored"></Icon_small>
+                <Icon_small className="devicon-express-original colored"></Icon_small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.mainProjects_mainDiv_project1}>
+          <div className={styles.mainProjects_mainDiv_project1_img}>
+            <img src={apple} alt="" />
+          </div>
+          <div className={styles.mainProjects_mainDiv_project1_summary}>
+            <div>
+              {" "}
+              <h2>Apple Hub</h2>
+              <p>
+                It's a MERN Stack E-commerce web application with all the major
+                functionalities.This was a individual project which was done by
+                me in 5-days using HTML, CSS, JavaScript ,ReactJS,
+                Mongodb,Express js,Node js and Chakra-UI.
+              </p>
+            </div>
+            <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://apple-hub-orignal.netlify.app/"
+                >
+                  <button className={styles1.viewDemoButton}>View Demo</button>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://github.com/jayprakashlohar/e-commers-app#Contact"
                 >
                   <button className={styles1.viewDemoButton}>
                     View Source
