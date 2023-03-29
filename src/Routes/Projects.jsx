@@ -21,26 +21,24 @@ export const Projects = () => {
       <div className={styles.mainProjects_mainDiv}>
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={purplle} alt="" />
+            <img src={apple} alt="" />
           </div>
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Google Digital Garage</h2>
+              <h2>Apple Hub</h2>
               <p>
-                Accelerate your career or business with an online digital skills
-                course in everything from marketing to coding and beyond.
-                Discover courses in topics designed to help expand your career,
-                business and horizons and to upgrade your skills for a new
-                digital world This was a collaborative project which was done by
-                me and 4 other members in 5-days using HTML, CSS, JavaScript.
+                It's a MERN Stack E-commerce web application with all the major
+                functionalities.This was a individual project which was done by
+                me in 5-days using HTML, CSS, JavaScript ,ReactJS,
+                Mongodb,Express js,Node js and Chakra-UI.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
                 <a
                   target="_blank"
-                  href="https://fastidious-nougat-4b59ee.netlify.app/"
+                  href="https://apple-hub-orignal.netlify.app/"
                 >
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
@@ -48,56 +46,7 @@ export const Projects = () => {
               <div>
                 <a
                   target="_blank"
-                  href="https://github.com/imrangadwal10/zonked-instrument-5361"
-                >
-                  <button className={styles1.viewDemoButton}>
-                    View Source
-                  </button>
-                </a>
-              </div>
-              <div
-                className={
-                  styles.mainProjects_mainDiv_project1_summary_flex_icon
-                }
-              >
-                <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
-                <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
-                <Icon_small className="devicon-javascript-plain colored"></Icon_small>
-                <Icon_small className="devicon-express-original colored"></Icon_small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.mainProjects_mainDiv_project1}>
-          <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={PrimeVideo} alt="" />
-          </div>
-          <div className={styles.mainProjects_mainDiv_project1_summary}>
-            <div>
-              {" "}
-              <h2>Licious</h2>
-              <p>
-                Licious is your one-stop fresh meat delivery shop. In here, you
-                get nothing but the freshest meat & seafood, delivered straight
-                to your doorstep.Licians will build the most loved meat brand by
-                delighting the world with an unmatched range of meat and meat
-                products. This was a individual project which was done by me in
-                5-days using ReactJS, HTML, CSS, JavaScript and Chakra-UI.
-              </p>
-            </div>
-            <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://super-cool-site-by-jayprakashlohar.netlify.app/"
-                >
-                  <button className={styles1.viewDemoButton}>View Demo</button>
-                </a>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/jayprakashlohar/hardy-mouth-2466/tree/main/licious.in"
+                  href="https://github.com/jayprakashlohar/e-commers-app#Contact"
                 >
                   <button className={styles1.viewDemoButton}>
                     View Source
@@ -214,24 +163,26 @@ export const Projects = () => {
         </div>
         <div className={styles.mainProjects_mainDiv_project1}>
           <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={apple} alt="" />
+            <img src={purplle} alt="" />
           </div>
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Apple Hub</h2>
+              <h2>Google Digital Garage</h2>
               <p>
-                It's a MERN Stack E-commerce web application with all the major
-                functionalities.This was a individual project which was done by
-                me in 5-days using HTML, CSS, JavaScript ,ReactJS,
-                Mongodb,Express js,Node js and Chakra-UI.
+                Accelerate your career or business with an online digital skills
+                course in everything from marketing to coding and beyond.
+                Discover courses in topics designed to help expand your career,
+                business and horizons and to upgrade your skills for a new
+                digital world This was a collaborative project which was done by
+                me and 4 other members in 5-days using HTML, CSS, JavaScript.
               </p>
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
               <div>
                 <a
                   target="_blank"
-                  href="https://apple-hub-orignal.netlify.app/"
+                  href="https://fastidious-nougat-4b59ee.netlify.app/"
                 >
                   <button className={styles1.viewDemoButton}>View Demo</button>
                 </a>
@@ -239,7 +190,56 @@ export const Projects = () => {
               <div>
                 <a
                   target="_blank"
-                  href="https://github.com/jayprakashlohar/e-commers-app#Contact"
+                  href="https://github.com/imrangadwal10/zonked-instrument-5361"
+                >
+                  <button className={styles1.viewDemoButton}>
+                    View Source
+                  </button>
+                </a>
+              </div>
+              <div
+                className={
+                  styles.mainProjects_mainDiv_project1_summary_flex_icon
+                }
+              >
+                <Icon_small className="devicon-html5-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
+                <Icon_small className="devicon-javascript-plain colored"></Icon_small>
+                <Icon_small className="devicon-express-original colored"></Icon_small>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className={styles.mainProjects_mainDiv_project1}>
+          <div className={styles.mainProjects_mainDiv_project1_img}>
+            <img src={PrimeVideo} alt="" />
+          </div>
+          <div className={styles.mainProjects_mainDiv_project1_summary}>
+            <div>
+              {" "}
+              <h2>Licious</h2>
+              <p>
+                Licious is your one-stop fresh meat delivery shop. In here, you
+                get nothing but the freshest meat & seafood, delivered straight
+                to your doorstep.Licians will build the most loved meat brand by
+                delighting the world with an unmatched range of meat and meat
+                products. This was a individual project which was done by me in
+                5-days using ReactJS, HTML, CSS, JavaScript and Chakra-UI.
+              </p>
+            </div>
+            <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://super-cool-site-by-jayprakashlohar.netlify.app/"
+                >
+                  <button className={styles1.viewDemoButton}>View Demo</button>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://github.com/jayprakashlohar/hardy-mouth-2466/tree/main/licious.in"
                 >
                   <button className={styles1.viewDemoButton}>
                     View Source
@@ -258,7 +258,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
