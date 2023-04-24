@@ -6,7 +6,11 @@ import { EveryHeading, EveryHeading2 } from "../Styled/NavbarDiv";
 
 export const Skills = () => {
   return (
-    <div name="main_skill_link" className={styles.skill_MainOuterDiv}>
+    <div
+      name="main_skill_link"
+      className={styles.skill_MainOuterDiv}
+      id="skills"
+    >
       <div className={styles.skill_mainHeading}>
         <EveryHeading>Skills</EveryHeading>
       </div>

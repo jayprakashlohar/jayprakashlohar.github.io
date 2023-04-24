@@ -33,9 +33,9 @@ export const Navbar = () => {
   ];
 
   return (
-    <NavbarMainDiv>
+    <NavbarMainDiv id="nav-menu">
       <NavbarDiv>
-        <NavbarDiv>
+        <NavbarDiv class="nav-link home">
           <NavbarLi>
             <Link
               activeClassName="nav-link-active"
@@ -51,7 +51,7 @@ export const Navbar = () => {
           </NavbarLi>
         </NavbarDiv>
         <NavbarDiv>
-          <NavbarLi>
+          <NavbarLi class="nav-link about">
             <Link
               className="nav-not-active-link"
               activeClassName="nav-link-active"
@@ -64,7 +64,7 @@ export const Navbar = () => {
               About
             </Link>
           </NavbarLi>
-          <NavbarLi>
+          <NavbarLi class="nav-link skills">
             <Link
               className="nav-not-active-link"
               activeClassName="nav-link-active"
@@ -77,7 +77,7 @@ export const Navbar = () => {
               Skills
             </Link>
           </NavbarLi>
-          <NavbarLi>
+          <NavbarLi class="nav-link projects">
             <Link
               className="nav-not-active-link"
               activeClassName="nav-link-active"
@@ -90,7 +90,7 @@ export const Navbar = () => {
               Projects
             </Link>
           </NavbarLi>
-          <NavbarLi>
+          <NavbarLi class="nav-link resume">
             <a
               className="nav-not-active-link"
               target="_blank"
@@ -99,7 +99,7 @@ export const Navbar = () => {
               Resume
             </a>
           </NavbarLi>
-          <NavbarLi>
+          <NavbarLi class="nav-link contact">
             <Link
               className="nav-not-active-link"
               activeClassName="nav-link-active"

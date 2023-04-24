@@ -10,16 +10,11 @@ export const About = () => {
     <>
       <div id="main_about_link" className={styles.mainAboutDiv}>
         <div className={styles.about_outerDivImg}>
-          <div className={styles.about_InnerDivImg}>
-            <img src={Bhanu} alt="" />
+          <div className={styles.about_InnerDivImg} id="home">
+            <img class="home-img" src={Bhanu} alt="" />
           </div>
         </div>
-        <div className={styles.about_nameH1Div}>
-          {/* <div className={styles.hello}>
-                        <span className={styles.hand_wave}> 👋🏻 </span> Hi, my
-                        name is
-                    </div> */}
-
+        <div className={styles.about_nameH1Div} id="user-detail-name">
           <h1>
             <span className={styles.about_hii}> Hi, &nbsp;</span>
             <span>
@@ -28,10 +23,10 @@ export const About = () => {
             </span>
           </h1>
         </div>
-        <div className={styles.about_devH3Div}>
+        <div className={styles.about_devH3Div} id="about">
           <h3>Full Stack Developer</h3>
         </div>
-        <div className={styles.about_descPDiv}>
+        <div className={styles.about_descPDiv} x id="user-detail-intro">
           <p>
             A passionate programmer with a curious mind who loves solving
             problems. I have an experience of building Web applications with
@@ -40,7 +35,7 @@ export const About = () => {
           </p>
         </div>
         <div className={styles.about_outerDiv_icons}>
-          <div>
+          <div id="contact-linkedin">
             <a
               style={{ marginLeft: "0.27em" }}
               className="nav-not-active-link"
@@ -50,7 +45,7 @@ export const About = () => {
               <FaLinkedinIn />
             </a>
           </div>
-          <div>
+          <div id="contact-github">
             <a
               style={{ marginLeft: "0px" }}
               className="nav-not-active-link"
@@ -60,7 +55,7 @@ export const About = () => {
               <FaGithub />
             </a>
           </div>
-          <div>
+          <div id="contact-email">
             <a
               style={{ marginLeft: "0px" }}
               className="nav-not-active-link"
@@ -76,7 +71,7 @@ export const About = () => {
             <TiLocation />
             <p>Rajasthan, India</p>
           </div>
-          <div>
+          <div id="contact-phone">
             <FiSmartphone />
             <p>(+91) 8875140357</p>
           </div>

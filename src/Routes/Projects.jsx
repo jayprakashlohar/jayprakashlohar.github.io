@@ -16,7 +16,11 @@ import { EveryHeading } from "../Styled/NavbarDiv";
 
 export const Projects = () => {
   return (
-    <div name="main_projects_link" className={styles.mainProjects}>
+    <div
+      name="main_projects_link"
+      className={styles.mainProjects}
+      id="projects"
+    >
       <EveryHeading>PROJECTS</EveryHeading>
       <div className={styles.mainProjects_mainDiv}>
         <div className={styles.mainProjects_mainDiv_project1}>
@@ -26,7 +30,7 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Apple Hub</h2>
+              <h2 class="project-title">Apple Hub</h2>
               <p>
                 It's a MERN Stack E-commerce web application with all the major
                 functionalities.This was a individual project which was done by
@@ -73,7 +77,7 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Bestbuy</h2>
+              <h2 class="project-title">Bestbuy</h2>
               <p>
                 Shop Best Buy for electronics, computers, appliances, cell
                 phones, video games & more new tech. In-store pickup & free
@@ -119,7 +123,7 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>NNNOW</h2>
+              <h2 class="project-title">NNNOW</h2>
               <p>
                 NNNOW is an E-commerce website where users Shopping for Men,
                 Women, and Kids products. Buy a wide range of branded clothes,
@@ -168,7 +172,7 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2>Google Digital Garage</h2>
+              <h2 class="project-title">Google Digital Garage</h2>
               <p>
                 Accelerate your career or business with an online digital skills
                 course in everything from marketing to coding and beyond.

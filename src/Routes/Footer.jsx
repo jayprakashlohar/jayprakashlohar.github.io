@@ -13,7 +13,7 @@ export const Footer = () => {
   }
 
   return (
-    <div name="main_footer_link" className={styles.footer_mainDiv}>
+    <div name="main_footer_link" className={styles.footer_mainDiv} id="contact">
       <div className={styles.footer_scrollup}>
         <IoIosArrowDropupCircle onClick={scrollTo} />
         {/* <img src={ Round} alt="" /> */}
