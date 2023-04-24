@@ -26,7 +26,7 @@ export const About = () => {
         <div className={styles.about_devH3Div} id="about">
           <h3>Full Stack Developer</h3>
         </div>
-        <div className={styles.about_descPDiv} x id="user-detail-intro">
+        <div className={styles.about_descPDiv} id="user-detail-intro">
           <p>
             A passionate programmer with a curious mind who loves solving
             problems. I have an experience of building Web applications with

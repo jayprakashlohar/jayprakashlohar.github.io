@@ -30,8 +30,8 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2 class="project-title">Apple Hub</h2>
-              <p>
+              <h2 className="project-title">Apple Hub</h2>
+              <p className="project-description">
                 It's a MERN Stack E-commerce web application with all the major
                 functionalities.This was a individual project which was done by
                 me in 5-days using HTML, CSS, JavaScript ,ReactJS,
@@ -58,9 +58,7 @@ export const Projects = () => {
                 </a>
               </div>
               <div
-                className={
-                  styles.mainProjects_mainDiv_project1_summary_flex_icon
-                }
+                className={`${styles.mainProjects_mainDiv_project1_summary_flex_icon} project-tech-stack`}
               >
                 <Icon_small className="devicon-react-original-wordmark colored"></Icon_small>
                 <Icon_small className="devicon-css3-plain-wordmark colored"></Icon_small>
@@ -77,8 +75,8 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2 class="project-title">Bestbuy</h2>
-              <p>
+              <h2 className="project-title">Bestbuy</h2>
+              <p className="project-description">
                 Shop Best Buy for electronics, computers, appliances, cell
                 phones, video games & more new tech. In-store pickup & free
                 2-day shipping on thousands of items. This was a collaborative
@@ -123,8 +121,8 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2 class="project-title">NNNOW</h2>
-              <p>
+              <h2 className="project-title">NNNOW</h2>
+              <p className="project-description">
                 NNNOW is an E-commerce website where users Shopping for Men,
                 Women, and Kids products. Buy a wide range of branded clothes,
                 apparel, accessories, shoes online at NNNOW.com. This was a
@@ -172,8 +170,8 @@ export const Projects = () => {
           <div className={styles.mainProjects_mainDiv_project1_summary}>
             <div>
               {" "}
-              <h2 class="project-title">Google Digital Garage</h2>
-              <p>
+              <h2 className="project-title">Google Digital Garage</h2>
+              <p className="project-description">
                 Accelerate your career or business with an online digital skills
                 course in everything from marketing to coding and beyond.
                 Discover courses in topics designed to help expand your career,
