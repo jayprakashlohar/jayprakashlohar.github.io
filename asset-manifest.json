@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0c1025f4.chunk.css",
-    "main.js": "/static/js/main.da6d2c06.chunk.js",
-    "main.js.map": "/static/js/main.da6d2c06.chunk.js.map",
+    "main.js": "/static/js/main.17918145.chunk.js",
+    "main.js.map": "/static/js/main.17918145.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.40c522f0.js",
     "runtime-main.js.map": "/static/js/runtime-main.40c522f0.js.map",
     "static/js/2.9c4f6e72.chunk.js": "/static/js/2.9c4f6e72.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.9c4f6e72.chunk.js.LICENSE.txt": "/static/js/2.9c4f6e72.chunk.js.LICENSE.txt",
     "static/media/Apple.ac2f7438.png": "/static/media/Apple.ac2f7438.png",
     "static/media/Bhanu1.e67e2ff3.png": "/static/media/Bhanu1.e67e2ff3.png",
-    "static/media/PrimevideoPic1.af65a5eb.png": "/static/media/PrimevideoPic1.af65a5eb.png",
+    "static/media/PrimevideoPic1.5d8f6914.png": "/static/media/PrimevideoPic1.5d8f6914.png",
     "static/media/Round.788ea165.svg": "/static/media/Round.788ea165.svg",
     "static/media/bestbuy3.9fbd8aec.png": "/static/media/bestbuy3.9fbd8aec.png",
     "static/media/hashnode.4f9c0d16.png": "/static/media/hashnode.4f9c0d16.png",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.40c522f0.js",
     "static/js/2.9c4f6e72.chunk.js",
     "static/css/main.0c1025f4.chunk.css",
-    "static/js/main.da6d2c06.chunk.js"
+    "static/js/main.17918145.chunk.js"
   ]
 }
