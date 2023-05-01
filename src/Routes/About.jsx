@@ -11,20 +11,22 @@ export const About = () => {
       <div id="main_about_link" className={styles.mainAboutDiv}>
         <div className={styles.about_outerDivImg}>
           <div className={styles.about_InnerDivImg} id="home">
-            <img class="home-img" src={Bhanu} alt="" />
+            <img className="home-img" src={Bhanu} alt="" />
           </div>
         </div>
-        <div className={styles.about_nameH1Div} id="user-detail-name">
+        <div className={styles.about_nameH1Div}>
           <h1>
             <span className={styles.about_hii}> Hi, &nbsp;</span>
-            <span>
+            <span id="user-detail-name">
               {" "}
               <span id={styles.hiIam}>I am</span> Jay Prakash Lohar
             </span>
           </h1>
         </div>
-        <div className={styles.about_devH3Div} id="about">
-          <h3>Full Stack Developer</h3>
+        <div className={styles.about_devH3Div} id="user-detail-intro">
+          <h3 id="about" className="about section">
+            Full Stack Developer
+          </h3>
         </div>
         <div className={styles.about_descPDiv} id="user-detail-intro">
           <p>
@@ -35,8 +37,9 @@ export const About = () => {
           </p>
         </div>
         <div className={styles.about_outerDiv_icons}>
-          <div id="contact-linkedin">
+          <div>
             <a
+              id="contact-linkedin"
               style={{ marginLeft: "0.27em" }}
               className="nav-not-active-link"
               target="_blank"
@@ -45,8 +48,9 @@ export const About = () => {
               <FaLinkedinIn />
             </a>
           </div>
-          <div id="contact-github">
+          <div>
             <a
+              id="contact-github"
               style={{ marginLeft: "0px" }}
               className="nav-not-active-link"
               target="_blank"
@@ -55,8 +59,9 @@ export const About = () => {
               <FaGithub />
             </a>
           </div>
-          <div id="contact-email">
+          <div>
             <a
+              id="contact-email"
               style={{ marginLeft: "0px" }}
               className="nav-not-active-link"
               target="_blank"
@@ -71,14 +76,16 @@ export const About = () => {
             <TiLocation />
             <p>Rajasthan, India</p>
           </div>
-          <div id="contact-phone">
+          <div>
             <FiSmartphone />
-            <p>(+91) 8875140357</p>
+            <p id="contact-phone">(+91) 8875140357</p>
           </div>
         </div>
         <div className={styles.resumeButtonDiv}>
           <a href="Jayprakash_Resume.pdf" download>
-            <button className={styles.resumeButton}>Resume</button>
+            <button id="resume-button-2" className={styles.resumeButton}>
+              Resume
+            </button>
           </a>
         </div>
       </div>

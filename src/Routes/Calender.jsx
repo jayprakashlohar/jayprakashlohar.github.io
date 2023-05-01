@@ -26,6 +26,7 @@ export const Calender = () => {
         }}
       >
         <img
+          className="react-activity-calendar"
           src="https://ghchart.rshah.org/jayprakashlohar"
           alt="jay prakash lohar"
         />

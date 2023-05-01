@@ -20,6 +20,7 @@ export const Stats = () => {
       <p style={{ display: "flex", justifyContent: "center" }}>
         &nbsp;
         <img
+          id="github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=jayprakashlohar&show_icons=true&locale=en"
           alt="jayprakashlohar"
@@ -35,6 +36,7 @@ export const Stats = () => {
         }}
       >
         <img
+          id="github-streak-stats"
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=jayprakashlohar&"
           alt="jayprakashlohar"

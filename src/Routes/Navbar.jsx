@@ -51,9 +51,9 @@ export const Navbar = () => {
           </NavbarLi>
         </NavbarDiv>
         <NavbarDiv>
-          <NavbarLi className="nav-link about">
+          <NavbarLi>
             <Link
-              className="nav-not-active-link"
+              className="nav-not-active-link nav-link about"
               activeClassName="nav-link-active"
               to="main_about_link"
               duration={1500}
@@ -64,9 +64,9 @@ export const Navbar = () => {
               About
             </Link>
           </NavbarLi>
-          <NavbarLi className="nav-link skills">
+          <NavbarLi>
             <Link
-              className="nav-not-active-link"
+              className="nav-not-active-link nav-link skills"
               activeClassName="nav-link-active"
               to="main_skill_link"
               duration={1500}
@@ -77,9 +77,9 @@ export const Navbar = () => {
               Skills
             </Link>
           </NavbarLi>
-          <NavbarLi className="nav-link projects">
+          <NavbarLi>
             <Link
-              className="nav-not-active-link"
+              className="nav-not-active-link nav-link projects"
               activeClassName="nav-link-active"
               to="main_projects_link"
               duration={1500}
@@ -90,18 +90,19 @@ export const Navbar = () => {
               Projects
             </Link>
           </NavbarLi>
-          <NavbarLi className="nav-link resume">
+          <NavbarLi>
             <a
-              className="nav-not-active-link"
+              id="resume-button-1"
+              className="nav-not-active-link nav-link resume"
               target="_blank"
               href="https://drive.google.com/file/d/1X7UuBPTPS6vFaVoeeuZB2jd0NwME2PKW/view?usp=sharing"
             >
               Resume
             </a>
           </NavbarLi>
-          <NavbarLi className="nav-link contact">
+          <NavbarLi>
             <Link
-              className="nav-not-active-link"
+              className="nav-not-active-link nav-link contact"
               activeClassName="nav-link-active"
               to="main_footer_link"
               duration={1500}

@@ -13,7 +13,7 @@ export const Footer = () => {
   }
 
   return (
-    <div name="main_footer_link" className={styles.footer_mainDiv} id="contact">
+    <div name="main_footer_link" className={styles.footer_mainDiv}>
       <div className={styles.footer_scrollup}>
         <IoIosArrowDropupCircle onClick={scrollTo} />
         {/* <img src={ Round} alt="" /> */}
@@ -21,6 +21,7 @@ export const Footer = () => {
       <div className={styles.footer_outerDiv_icons}>
         <div>
           <a
+            id="contact-linkedin"
             style={{ marginLeft: "0px" }}
             className="nav-not-active-link"
             target="_blank"
@@ -31,6 +32,7 @@ export const Footer = () => {
         </div>
         <div>
           <a
+            id="contact-github"
             style={{ marginLeft: "0px" }}
             className="nav-not-active-link"
             target="_blank"
@@ -41,6 +43,7 @@ export const Footer = () => {
         </div>
         <div>
           <a
+            id="contact-email"
             style={{ marginLeft: "0px" }}
             className="nav-not-active-link"
             target="_blank"
@@ -50,18 +53,18 @@ export const Footer = () => {
           </a>
         </div>
       </div>
-      <div className={styles.footer_address_numberDiv}>
+      <div className={styles.footer_address_numberDiv} id="contact">
         <div>
           <TiLocation />
           <p>Rajasthan, India</p>
         </div>
         <div>
           <FiMail />
-          <p>loharjayprakash4@gmail.com</p>
+          <p id="contact-email">loharjayprakash4@gmail.com</p>
         </div>
         <div>
           <FiSmartphone />
-          <p>(+91) 8875140357</p>
+          <p id="contact-phone">(+91) 8875140357</p>
         </div>
       </div>
       <div className={styles.footer_designBy}>
