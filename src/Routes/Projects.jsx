@@ -37,7 +37,7 @@ export const Projects = () => {
                 protect it, and sharing it with others in a matter of minutes.
                 With just a link, anyone can access the file and download it
                 with ease. This was a individual project which was done by me in
-                7-days using ReactJS, Redux, Mongodb, ExpressJS, NodeJS and
+                7-days using NextJS, Redux, Mongodb, ExpressJS, NodeJS and
                 Chakra-UI.
               </p>
             </div>
