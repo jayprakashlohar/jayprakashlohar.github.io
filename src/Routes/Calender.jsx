@@ -1,5 +1,23 @@
 import React from "react";
+// import GitHubCalendar from "react-github-calendar";
+
 export const Calender = () => {
+  // const selectLastHalfYear = (contributions) => {
+  //   const currentYear = new Date().getFullYear();
+  //   const currentMonth = new Date().getMonth();
+  //   const shownMonths = 6;
+
+  //   return contributions.filter((day) => {
+  //     const date = new Date(day.date);
+  //     const monthOfDay = date.getMonth();
+
+  //     return (
+  //       date.getFullYear() === currentYear &&
+  //       monthOfDay > currentMonth - shownMonths &&
+  //       monthOfDay <= currentMonth
+  //     );
+  //   });
+  // };
   return (
     <div
       className="box"
@@ -30,6 +48,9 @@ export const Calender = () => {
           src="https://ghchart.rshah.org/jayprakashlohar"
           alt="jay prakash lohar"
         />
+        {/* <GitHubCalendar */}
+        {/* // className="react-activity-calendar" // username="jayprakashlohar" // */}
+        {/* /> */}
       </div>
       <div
         style={{

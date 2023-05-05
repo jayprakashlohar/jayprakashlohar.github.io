@@ -9,6 +9,9 @@ import { Link } from "react-scroll";
 import { HamburgerMenuFun } from "./HamburgerMenu";
 
 export const Navbar = () => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
   const links = [
     {
       to: "main_about_link",
@@ -91,14 +94,23 @@ export const Navbar = () => {
             </Link>
           </NavbarLi>
           <NavbarLi>
-            <a
+            <div
               id="resume-button-1"
-              className="nav-not-active-link nav-link resume"
-              target="_blank"
-              href="https://drive.google.com/file/d/1X7UuBPTPS6vFaVoeeuZB2jd0NwME2PKW/view?usp=sharing"
+              onClick={() =>
+                openInNewTab(
+                  "https://drive.google.com/file/d/1X7UuBPTPS6vFaVoeeuZB2jd0NwME2PKW/view?usp=sharing"
+                )
+              }
             >
-              Resume
-            </a>
+              <a
+                className="nav-not-active-link nav-link resume"
+                id="resume-link-1"
+                href="Jayprakash_Lohar_Resume.pdf"
+                download
+              >
+                Resume
+              </a>
+            </div>
           </NavbarLi>
           <NavbarLi>
             <Link

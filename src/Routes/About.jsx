@@ -8,6 +8,7 @@ import { TiLocation } from "react-icons/ti";
 export const About = () => {
   return (
     <>
+      {/* <div id="about" className="about section"> */}
       <div id="main_about_link" className={styles.mainAboutDiv}>
         <div className={styles.about_outerDivImg}>
           <div className={styles.about_InnerDivImg} id="home">
@@ -81,14 +82,15 @@ export const About = () => {
             <p id="contact-phone">(+91) 8875140357</p>
           </div>
         </div>
-        <div className={styles.resumeButtonDiv}>
+        <div className={styles.resumeButtonDiv} id="resume-button-2">
           <a id="resume-link-2" href="Jayprakash_Lohar_Resume.pdf" download>
-            <button id="resume-button-2" className={styles.resumeButton}>
+            <button  className={styles.resumeButton}>
               Resume
             </button>
           </a>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };

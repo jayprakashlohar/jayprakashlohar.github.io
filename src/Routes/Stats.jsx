@@ -17,6 +17,21 @@ export const Stats = () => {
       <h1 style={{ textAlign: "center", marginBottom: "10px" }}>
         My Statistics
       </h1>
+      <p
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "20px",
+        }}
+      >
+        &nbsp;
+        <img
+          id="github-top-langs"
+          align="center"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayprakashlohar"
+          alt="jayprakashlohar"
+        />
+      </p>
       <p style={{ display: "flex", justifyContent: "center" }}>
         &nbsp;
         <img
